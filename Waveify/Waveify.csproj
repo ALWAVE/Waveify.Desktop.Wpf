@@ -1,0 +1,368 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Fonts\Raleway\**" />
+    <EmbeddedResource Remove="Fonts\Raleway\**" />
+    <None Remove="Fonts\Raleway\**" />
+    <Page Remove="Fonts\Raleway\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Apercu\ApercuPro-Bold.eot" />
+    <None Remove="Fonts\Apercu\ApercuPro-Bold.ttf" />
+    <None Remove="Fonts\Apercu\ApercuPro-Bold.woff" />
+    <None Remove="Fonts\Apercu\ApercuPro-Bold.woff2" />
+    <None Remove="Fonts\Apercu\ApercuPro-BoldItalic.eot" />
+    <None Remove="Fonts\Apercu\ApercuPro-BoldItalic.ttf" />
+    <None Remove="Fonts\Apercu\ApercuPro-BoldItalic.woff" />
+    <None Remove="Fonts\Apercu\ApercuPro-BoldItalic.woff2" />
+    <None Remove="Fonts\Apercu\ApercuPro-Italic.eot" />
+    <None Remove="Fonts\Apercu\ApercuPro-Italic.ttf" />
+    <None Remove="Fonts\Apercu\ApercuPro-Italic.woff" />
+    <None Remove="Fonts\Apercu\ApercuPro-Italic.woff2" />
+    <None Remove="Fonts\Apercu\ApercuPro-Medium.eot" />
+    <None Remove="Fonts\Apercu\ApercuPro-Medium.ttf" />
+    <None Remove="Fonts\Apercu\ApercuPro-Medium.woff" />
+    <None Remove="Fonts\Apercu\ApercuPro-Medium.woff2" />
+    <None Remove="Fonts\Apercu\ApercuPro-MediumItalic.eot" />
+    <None Remove="Fonts\Apercu\ApercuPro-MediumItalic.ttf" />
+    <None Remove="Fonts\Apercu\ApercuPro-MediumItalic.woff" />
+    <None Remove="Fonts\Apercu\ApercuPro-MediumItalic.woff2" />
+    <None Remove="Fonts\Apercu\ApercuPro-Mono.eot" />
+    <None Remove="Fonts\Apercu\ApercuPro-Mono.ttf" />
+    <None Remove="Fonts\Apercu\ApercuPro-Mono.woff" />
+    <None Remove="Fonts\Apercu\ApercuPro-Mono.woff2" />
+    <None Remove="Fonts\Apercu\ApercuPro.eot" />
+    <None Remove="Fonts\Apercu\ApercuPro.ttf" />
+    <None Remove="Fonts\Apercu\ApercuPro.woff" />
+    <None Remove="Fonts\Apercu\ApercuPro.woff2" />
+    <None Remove="Fonts\gothamssm_bold.otf" />
+    <None Remove="Fonts\gothamssm_medium.otf" />
+    <None Remove="Fonts\LonelyArmadillo Bold.otf" />
+    <None Remove="Fonts\LonelyArmadillo Regular.otf" />
+    <None Remove="Fonts\Montserrat-Bold.ttf" />
+    <None Remove="Fonts\Montserrat-ExtraBold.ttf" />
+    <None Remove="Fonts\Montserrat-SemiBold.ttf" />
+    <None Remove="Fonts\Popins\Poppins-Black.ttf" />
+    <None Remove="Fonts\Popins\Poppins-BlackItalic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-Bold.ttf" />
+    <None Remove="Fonts\Popins\Poppins-BoldItalic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-ExtraBold.ttf" />
+    <None Remove="Fonts\Popins\Poppins-ExtraBoldItalic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-ExtraLight.ttf" />
+    <None Remove="Fonts\Popins\Poppins-ExtraLightItalic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-Italic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-Light.ttf" />
+    <None Remove="Fonts\Popins\Poppins-LightItalic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-Medium.ttf" />
+    <None Remove="Fonts\Popins\Poppins-MediumItalic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-Regular.ttf" />
+    <None Remove="Fonts\Popins\Poppins-SemiBold.ttf" />
+    <None Remove="Fonts\Popins\Poppins-SemiBoldItalic.ttf" />
+    <None Remove="Fonts\Popins\Poppins-Thin.ttf" />
+    <None Remove="Fonts\Popins\Poppins-ThinItalic.ttf" />
+    <None Remove="Fonts\Raleway-ExtraBold.ttf" />
+    <None Remove="Fonts\Raleway-Light.ttf" />
+    <None Remove="Fonts\Roboto-Black.ttf" />
+    <None Remove="Fonts\Roboto-Bold.ttf" />
+    <None Remove="Fonts\Rubik-Bold.ttf" />
+    <None Remove="Fonts\Rubik-Medium.ttf" />
+    <None Remove="icons\audio_w.svg" />
+    <None Remove="icons\backward.svg" />
+    <None Remove="icons\back_s.svg" />
+    <None Remove="icons\blank-dark.svg" />
+    <None Remove="icons\discard.svg" />
+    <None Remove="icons\download.svg" />
+    <None Remove="icons\empty-folder.svg" />
+    <None Remove="icons\error-screen.svg" />
+    <None Remove="icons\forward.svg" />
+    <None Remove="icons\forward_s.svg" />
+    <None Remove="icons\home-icon.svg" />
+    <None Remove="icons\muted.svg" />
+    <None Remove="icons\no-volume.svg" />
+    <None Remove="icons\open.svg" />
+    <None Remove="icons\page-document-empty.svg" />
+    <None Remove="icons\pause-plain.svg" />
+    <None Remove="icons\pause.svg" />
+    <None Remove="icons\play.svg" />
+    <None Remove="icons\search-icon.svg" />
+    <None Remove="icons\voices.svg" />
+    <None Remove="icons\voice_white.svg" />
+    <None Remove="icons\volume-green.svg" />
+    <None Remove="icons\volume.svg" />
+    <None Remove="icons\volume1.svg" />
+    <None Remove="Images\19464881.png" />
+    <None Remove="Images\19464881white.png" />
+    <None Remove="Images\66c19c52cfe86614385363.png" />
+    <None Remove="Images\add_500px.png" />
+    <None Remove="Images\alwave-ice.jpg" />
+    <None Remove="Images\Application Shield_30px.png" />
+    <None Remove="Images\back_480px.png" />
+    <None Remove="Images\Circled Play_512px.png" />
+    <None Remove="Images\Day_Vibe.jpg" />
+    <None Remove="Images\face.jpg" />
+    <None Remove="Images\file_144px.png" />
+    <None Remove="Images\giphy.gif" />
+    <None Remove="Images\Header\crescent_moon_45px.png" />
+    <None Remove="Images\Header\crescent_moon_45px_white.png" />
+    <None Remove="Images\Header\diamond_45px.png" />
+    <None Remove="Images\Header\fairytale_45px.png" />
+    <None Remove="Images\Header\more_45px.png" />
+    <None Remove="Images\Header\settings_45px.png" />
+    <None Remove="Images\Header\sun_45px.png" />
+    <None Remove="Images\Header\sun_45px_grey.png" />
+    <None Remove="Images\heart_50px.png" />
+    <None Remove="Images\home-icon.svg" />
+    <None Remove="Images\home_20px_new.png" />
+    <None Remove="Images\home_20px_white_new.png" />
+    <None Remove="Images\home_30px.png" />
+    <None Remove="Images\Imagine_Dragons_Thunder.jpg" />
+    <None Remove="Images\JuyBack.jpg" />
+    <None Remove="Images\kizaru.jpg" />
+    <None Remove="Images\membership_card_192px.png" />
+    <None Remove="Images\Mor_Vibe.jpg" />
+    <None Remove="Images\music_189px.png" />
+    <None Remove="Images\music_30px.png" />
+    <None Remove="Images\Night_Vibe.jpg" />
+    <None Remove="Images\pause_480px.png" />
+    <None Remove="Images\piano_64px.png" />
+    <None Remove="Images\playlist_30px.png" />
+    <None Remove="Images\Premium_Logo.png" />
+    <None Remove="Images\SadBack.jpg" />
+    <None Remove="Images\search_144px.png" />
+    <None Remove="Images\search_30px.png" />
+    <None Remove="Images\seno.jpg" />
+    <None Remove="Images\settings_144px.png" />
+    <None Remove="Images\settings_30px.png" />
+    <None Remove="Images\slider_30px.png" />
+    <None Remove="Images\Summer.jpg" />
+    <None Remove="Images\Toolbar\audio_file_45px_white.png" />
+    <None Remove="Images\Toolbar\guitar_pick_40px.png" />
+    <None Remove="Images\Toolbar\home_45px_grey.png" />
+    <None Remove="Images\Toolbar\home_45px_white.png" />
+    <None Remove="Images\Toolbar\music_45px_grey.png" />
+    <None Remove="Images\Toolbar\music_45px_grey_v2.png" />
+    <None Remove="Images\Toolbar\music_45px_white_v2.png" />
+    <None Remove="Images\Toolbar\search_45px_grey.png" />
+    <None Remove="Images\Toolbar\search_45px_grey_v2.png" />
+    <None Remove="Images\Toolbar\search_45px_white.png" />
+    <None Remove="Images\Toolbar\search_45px_white_v2.png" />
+    <None Remove="Images\Travis Scott - Utopia.jpg" />
+    <None Remove="Images\vip_192px.png" />
+    <None Remove="Images\voice_50px.png" />
+    <None Remove="Images\voice_512px.png" />
+    <None Remove="Images\Waveify_BlackWhite%403x.png" />
+    <None Remove="Images\Waveify_BlackWhite.png" />
+    <None Remove="Images\Waveify_Default_Small.png" />
+    <None Remove="Images\Waveify_Premium.png" />
+    <None Remove="Images\Waveify_Premium_Small.png" />
+    <None Remove="Images\Waveify_Titanium_Small.png" />
+    <None Remove="Images\Ресурс 1%403x.png" />
+    <None Remove="Images\Ресурс 11%403x.png" />
+    <None Remove="Pages\Travis Scott - Utopia.jpg" />
+    <None Remove="WaveifyLogo.ico" />
+    <None Remove="Waveify_Default_Small.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.WinUI.Notifications" Version="7.1.2" />
+    <PackageReference Include="MaterialDesignColors" Version="3.1.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="SharpVectors" Version="1.8.4.2" />
+    <PackageReference Include="VideoLibrary" Version="3.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WaveifyData\WaveifyData.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Apercu\ApercuPro-Bold.eot" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Bold.ttf" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Bold.woff" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Bold.woff2" />
+    <Resource Include="Fonts\Apercu\ApercuPro-BoldItalic.eot" />
+    <Resource Include="Fonts\Apercu\ApercuPro-BoldItalic.ttf" />
+    <Resource Include="Fonts\Apercu\ApercuPro-BoldItalic.woff" />
+    <Resource Include="Fonts\Apercu\ApercuPro-BoldItalic.woff2" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Italic.eot" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Italic.ttf" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Italic.woff" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Italic.woff2" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Medium.eot" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Medium.ttf" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Medium.woff" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Medium.woff2" />
+    <Resource Include="Fonts\Apercu\ApercuPro-MediumItalic.eot" />
+    <Resource Include="Fonts\Apercu\ApercuPro-MediumItalic.ttf" />
+    <Resource Include="Fonts\Apercu\ApercuPro-MediumItalic.woff" />
+    <Resource Include="Fonts\Apercu\ApercuPro-MediumItalic.woff2" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Mono.eot" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Mono.ttf" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Mono.woff" />
+    <Resource Include="Fonts\Apercu\ApercuPro-Mono.woff2" />
+    <Resource Include="Fonts\Apercu\ApercuPro.eot" />
+    <Resource Include="Fonts\Apercu\ApercuPro.ttf" />
+    <Resource Include="Fonts\Apercu\ApercuPro.woff" />
+    <Resource Include="Fonts\Apercu\ApercuPro.woff2" />
+    <Resource Include="Fonts\gothamssm_bold.otf" />
+    <Resource Include="Fonts\gothamssm_medium.otf" />
+    <Resource Include="Fonts\LonelyArmadillo Bold.otf" />
+    <Resource Include="Fonts\LonelyArmadillo Regular.otf" />
+    <Resource Include="Fonts\Montserrat-Bold.ttf" />
+    <Resource Include="Fonts\Montserrat-ExtraBold.ttf" />
+    <Resource Include="Fonts\Montserrat-SemiBold.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-Black.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-BlackItalic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-Bold.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-BoldItalic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-ExtraBold.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-ExtraBoldItalic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-ExtraLight.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-ExtraLightItalic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-Italic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-Light.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-LightItalic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-Medium.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-MediumItalic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-Regular.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-SemiBold.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-SemiBoldItalic.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-Thin.ttf" />
+    <Resource Include="Fonts\Popins\Poppins-ThinItalic.ttf" />
+    <Resource Include="Fonts\Raleway-Black.ttf" />
+    <Resource Include="Fonts\Raleway-Bold.ttf" />
+    <Resource Include="Fonts\Raleway-ExtraBold.ttf" />
+    <Resource Include="Fonts\Raleway-ExtraLight.ttf" />
+    <Resource Include="Fonts\Raleway-Light.ttf" />
+    <Resource Include="Fonts\Raleway-Medium.ttf" />
+    <Resource Include="Fonts\Raleway-SemiBold.ttf" />
+    <Resource Include="Fonts\Roboto-Black.ttf" />
+    <Resource Include="Fonts\Roboto-Bold.ttf" />
+    <Resource Include="Fonts\Rubik-Bold.ttf" />
+    <Resource Include="Fonts\Rubik-Medium.ttf" />
+    <Resource Include="icons\audio_w.svg" />
+    <Resource Include="icons\backward.svg" />
+    <Resource Include="icons\back_s.svg" />
+    <Resource Include="icons\blank-dark.svg" />
+    <Resource Include="icons\discard.svg" />
+    <Resource Include="icons\download.svg" />
+    <Resource Include="icons\empty-folder.svg" />
+    <Resource Include="icons\error-screen.svg" />
+    <Resource Include="icons\forward.svg" />
+    <Resource Include="icons\forward_s.svg" />
+    <Resource Include="icons\home-icon.svg" />
+    <Resource Include="icons\muted.svg" />
+    <Resource Include="icons\no-volume.svg" />
+    <Resource Include="icons\open.svg" />
+    <Resource Include="icons\page-document-empty.svg" />
+    <Resource Include="icons\pause-plain.svg" />
+    <Resource Include="icons\pause.svg" />
+    <Resource Include="icons\play.svg" />
+    <Resource Include="icons\search-icon.svg" />
+    <Resource Include="icons\voices.svg" />
+    <Resource Include="icons\voice_white.svg" />
+    <Resource Include="icons\volume-green.svg" />
+    <Resource Include="icons\volume.svg" />
+    <Resource Include="icons\volume1.svg" />
+    <Resource Include="Images\19464881.png" />
+    <Resource Include="Images\19464881white.png" />
+    <Resource Include="Images\66c19c52cfe86614385363.png" />
+    <Resource Include="Images\add_500px.png" />
+    <Resource Include="Images\alwave-ice.jpg" />
+    <Resource Include="Images\Application Shield_30px.png" />
+    <Resource Include="Images\Day_Vibe.jpg" />
+    <Resource Include="Images\face.jpg" />
+    <Resource Include="Images\Header\crescent_moon_45px.png" />
+    <Resource Include="Images\Header\crescent_moon_45px_white.png" />
+    <Resource Include="Images\Header\diamond_45px.png" />
+    <Resource Include="Images\Header\fairytale_45px.png" />
+    <Resource Include="Images\Header\more_45px.png" />
+    <Resource Include="Images\Header\settings_45px.png" />
+    <Resource Include="Images\Header\sun_45px.png" />
+    <Resource Include="Images\Header\sun_45px_grey.png" />
+    <Resource Include="Images\home_20px_new.png" />
+    <Resource Include="Images\home_20px_white_new.png" />
+    <Resource Include="Images\Imagine_Dragons_Thunder.jpg" />
+    <Resource Include="Images\JuyBack.jpg" />
+    <Resource Include="Images\Mor_Vibe.jpg" />
+    <Resource Include="Images\music_189px.png" />
+    <Resource Include="Images\Night_Vibe.jpg" />
+    <Resource Include="Images\SadBack.jpg" />
+    <Resource Include="Images\Summer.jpg" />
+    <Resource Include="Images\back_480px.png" />
+    <Resource Include="Images\Circled Play_512px.png" />
+    <Resource Include="Images\file_144px.png" />
+    <Resource Include="Images\giphy.gif" />
+    <Resource Include="Images\heart_50px.png" />
+    <Resource Include="Images\home-icon.svg" />
+    <Resource Include="Images\home_30px.png" />
+    <Resource Include="Images\kizaru.jpg" />
+    <Resource Include="Images\membership_card_192px.png" />
+    <Resource Include="Images\music_30px.png" />
+    <Resource Include="Images\pause_480px.png" />
+    <Resource Include="Images\piano_64px.png" />
+    <Resource Include="Images\playlist_30px.png" />
+    <Resource Include="Images\Premium_Logo.png" />
+    <Resource Include="Images\search_144px.png" />
+    <Resource Include="Images\search_30px.png" />
+    <Resource Include="Images\settings_144px.png" />
+    <Resource Include="Images\settings_30px.png" />
+    <Resource Include="Images\slider_30px.png" />
+    <Resource Include="Images\Toolbar\audio_file_45px_white.png" />
+    <Resource Include="Images\Toolbar\guitar_pick_40px.png" />
+    <Resource Include="Images\Toolbar\home_45px_grey.png" />
+    <Resource Include="Images\Toolbar\home_45px_white.png" />
+    <Resource Include="Images\Toolbar\music_45px_grey.png" />
+    <Resource Include="Images\Toolbar\music_45px_grey_v2.png" />
+    <Resource Include="Images\Toolbar\music_45px_white_v2.png" />
+    <Resource Include="Images\Toolbar\search_45px_grey.png" />
+    <Resource Include="Images\Toolbar\search_45px_grey_v2.png" />
+    <Resource Include="Images\Toolbar\search_45px_white.png" />
+    <Resource Include="Images\Toolbar\search_45px_white_v2.png" />
+    <Resource Include="Images\Travis Scott - Utopia.jpg" />
+    <Resource Include="Images\seno.jpg" />
+    <Resource Include="Images\vip_192px.png" />
+    <Resource Include="Images\voice_50px.png" />
+    <Resource Include="Images\voice_512px.png" />
+    <Resource Include="Images\Waveify_BlackWhite.png" />
+    <Resource Include="Images\Waveify_BlackWhite@3x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Waveify_Default_Small.png" />
+    <Resource Include="Images\Waveify_Premium.png" />
+    <Resource Include="Images\Waveify_Premium_Small.png" />
+    <Resource Include="Images\Waveify_Titanium_Small.png" />
+    <Resource Include="Images\Ресурс 11@3x.png" />
+    <Resource Include="Images\Ресурс 1@3x.png" />
+    <Resource Include="Pages\Travis Scott - Utopia.jpg" />
+    <Resource Include="WaveifyLogo.ico" />
+    <Resource Include="Waveify_Default_Small.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Enums\NavigationEN.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

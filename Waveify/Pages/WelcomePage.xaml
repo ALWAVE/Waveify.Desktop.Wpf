@@ -1,0 +1,55 @@
+﻿<Page x:Class="Waveify.Pages.WelcomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Waveify.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1600"
+      Title="WelcomePage"
+     >
+
+
+    <Border Background="#1c1c1c" CornerRadius="25">
+       
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border Width="500" Height="500" Background="#202020" CornerRadius="25">
+                <Grid>
+                    <TextBlock Text="Waveify" Style="{StaticResource menuTittle}" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Image Source="/Images/Waveify_BlackWhite.png" Width="45" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 65 0 0"/>
+                    <TextBlock FontSize="20" Style="{StaticResource menuTittle}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 -170 0 0">
+                        <TextBlock.Triggers>
+                            <EventTrigger RoutedEvent="Loaded">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <!-- Анимация изменения текста -->
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Text" Duration="0:0:20" RepeatBehavior="Forever">
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:0" Value="Еда вкуснее с Waveify"/>
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:4" Value="Лучшая музыка только в Waveify"/>
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:8" Value="Оттечественный Spotify"/>
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:12" Value="Прогулка лучше с Waveify"/>
+                                            <DiscreteObjectKeyFrame KeyTime="0:0:16" Value="На нас санкции не действуют!"/>
+                                        </ObjectAnimationUsingKeyFrames>
+
+                                        <!-- Анимация затухания и появления -->
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2" AutoReverse="True" RepeatBehavior="Forever"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </TextBlock.Triggers>
+                    </TextBlock>
+                    <Button Content="Войти" FontSize="14" FontFamily="Montserrat SemiBold" VerticalAlignment="Top" Click="LogIn_Btn" Style="{StaticResource buttonLogInInWelcome}" Margin="0,244,0,0" HorizontalAlignment="Center" Width="149" Height="51"/>
+                    <TextBlock Foreground="Gray" Text="Впервые в Waveify?" Margin="122,321,172,0" VerticalAlignment="Top"/>
+                    <TextBlock Style="{StaticResource linkText}" Text="Зарегистрироваться" Margin="255,318,0,0" VerticalAlignment="Top">
+                        <Hyperlink/>
+                    </TextBlock>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 15 0 0">
+                        <Button Style="{DynamicResource buttonLogIn}" Click="SignInLater_Click" Background="Transparent" Foreground="White" Cursor="Hand">
+                            <TextBlock Text="Log In Later"/>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </StackPanel>
+    </Border>
+</Page>

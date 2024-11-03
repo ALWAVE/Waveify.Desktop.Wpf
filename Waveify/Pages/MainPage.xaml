@@ -1,0 +1,44 @@
+﻿<Page x:Class="Waveify.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:control="clr-namespace:Waveify.CustomControls"
+      xmlns:views="clr-namespace:Waveify.Views"
+      xmlns:local="clr-namespace:Waveify.Pages" 
+      xmlns:menu="clr-namespace:Waveify.Utilities" 
+      xmlns:vm="clr-namespace:Waveify.ViewModel"
+      mc:Ignorable="d"
+      MinHeight="600" MinWidth="900"
+      Title="MainPage"
+      >
+   
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240px"
+                        MinWidth="150px"
+                        MaxWidth="300px"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="90px"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Hello" FontSize="80" Foreground="Wheat"></TextBlock>
+            <ContentControl Grid.Row="0" Grid.Column="1" Content="{Binding CurrentView}"/>
+            <ContentControl Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="{Binding PlayerView}"/>
+            <ContentControl Grid.Row="0" Grid.Column="0" Content="{Binding ToolbarView}"/>
+
+
+        <!-- Menu -->
+       
+
+        <!-- Main Content Frame -->
+        <!--<Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden" />-->
+
+        <!-- Music Panel -->
+       
+    </Grid>
+</Page>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CustomControls\Content\PlaylistWorkingVibeCC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomControls\MusicCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomControls\MusicPanelControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomControls\ToolbarControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomControls\UserProfileControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Toast\ToastWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ChartView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditPlaylistView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\IdentifyBpmView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MyFileView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PlaylistView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ProfileView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SearchView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SettingsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CustomControls\Content\PlaylistWorkingVibeCC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\MusicCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\MusicPanelControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\PlaceHolderCC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\ToolbarControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomControls\UserProfileControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\Loading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\MinMaxButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Premium.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Toast\ToastWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilities\DataTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ChartView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditPlaylistView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\LoadingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\IdentifyBpmView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MyFileView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PlaylistView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PremiumView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PreparingToLaunchApplication.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ProfileView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SearchView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SignInPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\WelcomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\ProgressBarStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Dark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Light.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SettingsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

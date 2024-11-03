@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Waveify": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

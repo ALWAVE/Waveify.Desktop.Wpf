@@ -1,0 +1,141 @@
+﻿<UserControl x:Class="Waveify.Views.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Waveify.Views"
+              xmlns:ext="clr-namespace:Waveify.Extentsions"
+              xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+             xmlns:vm="clr-namespace:Waveify.ViewModel"
+             xmlns:components="clr-namespace:Waveify.Utilities"
+                
+             xmlns:views="clr-namespace:Waveify.Views"
+             xmlns:enums="clr-namespace:Waveify.Enums"
+            xmlns:controls="clr-namespace:Waveify.CustomControls"
+
+              mc:Ignorable="d" 
+         
+             d:DesignHeight="450" d:DesignWidth="800"
+             ext:ClickLoseFocusExtension.IsEnabled="True">
+
+    <Border Style="{DynamicResource BorderView}">
+        <Grid Style="{DynamicResource HomePage}" Margin="0,0,0,-647">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100px" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Margin="20 0 0 0"  Grid.Column="0" Grid.Row="0" VerticalAlignment="Bottom ">
+                <TextBlock FontSize="30px" Style="{DynamicResource menuTittle}" Text="Настройки"/>
+
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Left">
+
+                <TextBlock Margin="20 20 0 0"  FontSize="16px" Style="{DynamicResource menuTittle}" Text="Тема приложения"/>
+                <Button Style="{DynamicResource menuButton}" x:Name="ChangeThemes" Margin="20,0,19,3" Cursor="Hand" Click="ChangeTheme_Click" Width="199">
+                    <Grid>
+
+                        <TextBlock Text="Change Themes" Margin="30,3,0,0" HorizontalAlignment="Left" Width="138"/>
+                    </Grid>
+                </Button>
+                <Button Style="{DynamicResource menuButton}" x:Name="ExclusiveTheme" Margin="20,0,19,3" Cursor="Hand" Click="ExclusiveTheme_Click" Width="199">
+                    <Grid>
+
+                        <TextBlock Text="Premium Theme" Margin="30,3,0,0" HorizontalAlignment="Left" Width="138"/>
+                    </Grid>
+                </Button>
+                <Button Style="{DynamicResource menuButton}" Command="{Binding OpenModalCommand}" Margin="20,0,19,3" Cursor="Hand"  Width="199 ">
+                    <Grid>
+
+                        <TextBlock Text="Заглушечка" Margin="30,3,0,0" HorizontalAlignment="Left" Width="138"/>
+                    </Grid>
+                </Button>
+                <TextBlock Margin="20 20 0 0"  FontSize="16px" Style="{DynamicResource menuTittle}" Text="Язык"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#888" Margin="20 20 0 0"  FontSize="14px" Style="{DynamicResource menuTittle}" Text="Выберите язык. Изменения вступят в силу после перезапуска приложения."/>
+                    <!--DropDowwn Released-->
+                </StackPanel>
+                <TextBlock Margin="20 20 0 0"  FontSize="16px" Style="{DynamicResource menuTittle}" Text="Качество звука"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#888" Margin="20 20 0 0"  FontSize="14px" Style="{DynamicResource menuTittle}" Text="Музыка в HD качестве. Высокое качество звука."/>
+                    <RadioButton Margin="100 0 0 0" Style="{DynamicResource ToggleButtonStyle}" Width="111"></RadioButton>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#888" Margin="20 20 0 0"  FontSize="14px" Style="{DynamicResource menuTittle}" Text="Пусть уши отдохнут. Ограничить громкость музыки до 50% на сегодняю"/>
+                    <RadioButton Margin="100 0 0 0" Style="{DynamicResource ToggleButtonStyle}" Width="111"></RadioButton>
+                </StackPanel>
+                <TextBlock Margin="20 20 0 0"  FontSize="16px" Style="{DynamicResource menuTittle}" Text="Моя медиатека"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#888" Margin="20 20 0 0"  FontSize="14px" Style="{DynamicResource menuTittle}" Text="Быстрое удаление плейлистов."/>
+                    <Button Grid.Column="0" Height="33px" Width="33px" Margin="250 0 0 0"
+               FontSize="12px"
+               Foreground="#ddd"
+  
+               FontWeight="UltraBlack"
+               Command="{Binding ToggleRemoveActive}"
+               Content="-">
+                        <Button.Style>
+                            <Style
+                         TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#222"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=PlaylistItems, Path=DataContext.IsRemoveActive}" Value="true">
+                                        <DataTrigger.EnterActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)">
+                                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#444" />
+                                                    </ColorAnimationUsingKeyFrames>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.EnterActions>
+                                        <DataTrigger.ExitActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)">
+                                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#222" />
+                                                    </ColorAnimationUsingKeyFrames>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.ExitActions>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                    </Button>
+                </StackPanel>
+                <TextBlock Margin="20 20 0 0"  FontSize="16px" Style="{DynamicResource menuTittle}" Text="Воспроизведение"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Foreground="#888" Margin="20 20 0 0"  FontSize="14px" Style="{DynamicResource menuTittle}" Text="Включить эквалайзер. "/>
+                    <RadioButton Margin="100 0 0 0" Style="{DynamicResource ToggleButtonStyle}" Width="111"></RadioButton>
+
+                </StackPanel>
+                <Border CornerRadius="5" Background="#1f1f1f" Width="638" Height="267" RenderTransformOrigin="0.5,0.5">
+                    <StackPanel>
+                        <TextBlock Text="Low Frequencies" Margin="10"/>
+                        <Slider x:Name="LowFreqSlider" Minimum="-10" Maximum="10" Value="0" Width="200" Margin="10"/>
+
+                        <TextBlock Text="Mid Frequencies" Margin="10"/>
+                        <Slider x:Name="MidFreqSlider" Minimum="-10" Maximum="10" Value="0" Width="200" Margin="10"/>
+
+                        <TextBlock Text="High Frequencies" Margin="10"/>
+                        <Slider x:Name="HighFreqSlider" Minimum="-10" Maximum="10" Value="0" Width="200" Margin="10"/>
+
+                        <Button Content="Apply EQ" Width="100" Height="30" Click="ApplyEq_Click"/>
+                    </StackPanel>
+
+                </Border>
+            </StackPanel>
+
+        </Grid>
+    </Border>
+   
+   
+</UserControl>
