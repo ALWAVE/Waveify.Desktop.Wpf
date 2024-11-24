@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WaveifyData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b67931e0f2d8a8ab220aadff279a682424f7c28")]
 [assembly: System.Reflection.AssemblyProductAttribute("WaveifyData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WaveifyData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

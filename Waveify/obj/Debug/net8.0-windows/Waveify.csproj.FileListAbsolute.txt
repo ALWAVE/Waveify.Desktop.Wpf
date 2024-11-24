@@ -239,3 +239,4 @@ D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\CustomControls\Content\Pla
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\CustomControls\Content\PlaylistWorkingVibeCC.baml
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Views\IdentifyBpmView.g.cs
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Views\IdentifyBpmView.baml
+D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Waveify.sourcelink.json
