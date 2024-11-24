@@ -178,7 +178,6 @@ D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\CustomControls\ToolbarCont
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\CustomControls\UserProfileControl.g.cs
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\LoadingPage.g.cs
-D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\MainPage.g.cs
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\PreparingToLaunchApplication.g.cs
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\SignInPage.g.cs
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\WelcomePage.g.cs
@@ -204,7 +203,6 @@ D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\CustomControls\ToolbarCont
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\CustomControls\UserProfileControl.baml
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\MainWindow.baml
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\LoadingPage.baml
-D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\MainPage.baml
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\PreparingToLaunchApplication.baml
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\SignInPage.baml
 D:\ProjectVS\Waveify\Waveify\obj\Debug\net8.0-windows\Pages\WelcomePage.baml

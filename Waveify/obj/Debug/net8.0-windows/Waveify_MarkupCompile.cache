@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\ProjectVS\Waveify\Waveify\App.xaml
-322108249441
+311237023460
 
-1031808214609
+102-725740121
 2692008030484
-CustomControls\Content\PlaylistWorkingVibeCC.xaml;CustomControls\MusicCard.xaml;CustomControls\MusicPanelControl.xaml;CustomControls\PlaceHolderCC.xaml;CustomControls\ToolbarControl.xaml;CustomControls\UserProfileControl.xaml;MainWindow.xaml;Pages\LoadingPage.xaml;Pages\MainPage.xaml;Pages\PreparingToLaunchApplication.xaml;Pages\SignInPage.xaml;Pages\WelcomePage.xaml;Style\Button.xaml;Style\Loading.xaml;Style\MinMaxButton.xaml;Style\ProgressBarStyles.xaml;Themes\Dark.xaml;Themes\Generic.xaml;Themes\Light.xaml;Themes\Premium.xaml;Toast\ToastWindow.xaml;Utilities\DataTemplate.xaml;Views\ChartView.xaml;Views\EditPlaylistView.xaml;Views\HomeView.xaml;Views\IdentifyBpmView.xaml;Views\MyFileView.xaml;Views\PlaylistView.xaml;Views\PremiumView.xaml;Views\ProfileView.xaml;Views\SearchView.xaml;Views\SettingsView.xaml;
+CustomControls\Content\PlaylistWorkingVibeCC.xaml;CustomControls\MusicCard.xaml;CustomControls\MusicPanelControl.xaml;CustomControls\PlaceHolderCC.xaml;CustomControls\ToolbarControl.xaml;CustomControls\UserProfileControl.xaml;MainWindow.xaml;Pages\LoadingPage.xaml;Pages\PreparingToLaunchApplication.xaml;Pages\SignInPage.xaml;Pages\WelcomePage.xaml;Style\Button.xaml;Style\Loading.xaml;Style\MinMaxButton.xaml;Style\ProgressBarStyles.xaml;Themes\Dark.xaml;Themes\Generic.xaml;Themes\Light.xaml;Themes\Premium.xaml;Toast\ToastWindow.xaml;Utilities\DataTemplate.xaml;Views\ChartView.xaml;Views\EditPlaylistView.xaml;Views\HomeView.xaml;Views\IdentifyBpmView.xaml;Views\MyFileView.xaml;Views\PlaylistView.xaml;Views\PremiumView.xaml;Views\ProfileView.xaml;Views\SearchView.xaml;Views\SettingsView.xaml;
 
 False
 

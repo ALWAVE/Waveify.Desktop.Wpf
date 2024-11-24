@@ -102,9 +102,6 @@
     <Page Update="Pages\LoadingPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\MainPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Views\IdentifyBpmView.xaml">
       <SubType>Designer</SubType>
     </Page>
