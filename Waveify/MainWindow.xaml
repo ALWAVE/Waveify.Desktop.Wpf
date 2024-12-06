@@ -23,7 +23,7 @@
         <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
     </Window.Resources>
     <Window.Effect>
-        <BlurEffect x:Name="blurEffect" Radius="0" />
+        <BlurEffect x:Name="BlurEffect" Radius="0" />
     </Window.Effect>
 
     <Border CornerRadius="25" MouseDown="Border_MouseDown" Style="{DynamicResource SideBar}">
@@ -53,10 +53,10 @@
             Grid.RowSpan="3"
             x:Name="MainFrameLoaded"
             NavigationUIVisibility="Hidden"
-            Source="Pages/WelcomePage.xaml"
+           
             Panel.ZIndex="1"
             />
-          
+            <!--Source="Pages/WelcomePage.xaml"-->
             <Border CornerRadius="20" Margin="5 15 15 15" Grid.Row="0" Grid.Column="1">
                 <ContentControl Content="{Binding CurrentView}"/>
             </Border>

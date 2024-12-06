@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj",
+    "projectName": "Waveify.Update",
+    "projectPath": "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj",
+    "outputPath": "D:\\ProjectVS\\Waveify\\Waveify.Update\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "D:\\Visual Studio 22\\VSSDK\\NuGetPackages"
+    ],
+    "originalTargetFrameworks": [
+      "net80-windows"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "C:\\Program Files\\dotnet\\library-packs": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp8.0": {
+        "projectReferences": {
+          "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj": {
+            "projectPath": "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp8.0": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48",
+        "net481"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        },
+        "Microsoft.WindowsDesktop.App.WindowsForms": {
+          "privateAssets": "none"
+        },
+        "Microsoft.WindowsDesktop.App.WPF": {
+          "privateAssets": "none"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+    }
+  }
+}

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\aptem\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\aptem\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Waveify.-1313937672.00" t="ExcludeRecursive" />
+    <e p="D:\ProjectVS\Waveify" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Waveify" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="AsyncCommandBase.cs" t="Include" />
+          <e p="BackwardSongCommand.cs" t="Include" />
+          <e p="CommandBase.cs" t="Include" />
+          <e p="CreatePlaylistAsyncCommand.cs" t="Include" />
+          <e p="DeleteSpecificPlaylistAsyncCommand.cs" t="Include" />
+          <e p="DeleteSpecificSongAsyncCommand.cs" t="Include" />
+          <e p="DownloadSongOnYoutubeAsyncCommand.cs" t="Include" />
+          <e p="ForwardSongCommand.cs" t="Include" />
+          <e p="OpenExplorerAtPathCommand.cs" t="Include" />
+          <e p="PlaySpecificSongCommand.cs" t="Include" />
+          <e p="RenamePlaylistAsyncCommand.cs" t="Include" />
+          <e p="SearchSongOnYoutubeAsyncCommand.cs" t="Include" />
+          <e p="SwitchPageToDownloadsCommand.cs" t="Include" />
+          <e p="SwitchPageToHomeCommand.cs" t="Include" />
+          <e p="SwitchPageToMyFileCommand.cs" t="Include" />
+          <e p="SwitchPageToPlaylistCommand.cs" t="Include" />
+          <e p="SwitchPageToProfileCommand.cs" t="Include" />
+          <e p="SwitchPageToSettingsCommand.cs" t="Include" />
+          <e p="ToggleMusicPlayerStateCommand.cs" t="Include" />
+          <e p="TogglePlaylistRemoveCommand.cs" t="Include" />
+          <e p="ToggleVolumeCommand.cs" t="Include" />
+        </e>
+        <e p="Converters" t="Include">
+          <e p="ArcEndPointConverter.cs" t="Include" />
+          <e p="ArcSizeConverter.cs" t="Include" />
+          <e p="BooleanToVisibilityConverter.cs" t="Include" />
+          <e p="DiameterAndThicknessToStrokeDashArrayConverter.cs" t="Include" />
+          <e p="LocalEx.cs" t="Include" />
+          <e p="NotZeroConverter.cs" t="Include" />
+          <e p="PositiveToNegativeConverter.cs" t="Include" />
+          <e p="RotateTransformCentreConverter.cs" t="Include" />
+          <e p="StartPointConverter.cs" t="Include" />
+          <e p="TextToBoolConverter.cs" t="Include" />
+        </e>
+        <e p="CustomControls" t="Include">
+          <e p="Content" t="Include">
+            <e p="PlaylistWorkingVibeCC.xaml" t="Include" />
+            <e p="PlaylistWorkingVibeCC.xaml.cs" t="Include" />
+          </e>
+          <e p="MusicCard.xaml" t="Include" />
+          <e p="MusicCard.xaml.cs" t="Include" />
+          <e p="MusicPanelControl.xaml" t="Include" />
+          <e p="MusicPanelControl.xaml.cs" t="Include" />
+          <e p="PlaceHolderCC.xaml" t="Include" />
+          <e p="PlaceHolderCC.xaml.cs" t="Include" />
+          <e p="ToolbarControl.xaml" t="Include" />
+          <e p="ToolbarControl.xaml.cs" t="Include" />
+          <e p="UserProfileControl.xaml" t="Include" />
+          <e p="UserProfileControl.xaml.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="NavigationEN.cs" t="Include" />
+          <e p="PlayerEventType.cs" t="Include" />
+        </e>
+        <e p="Events" t="Include">
+          <e p="MusicPlayerEventArgs.cs" t="Include" />
+          <e p="PageChangedEventArgs.cs" t="Include" />
+          <e p="PlaylistBrowserChangedEventArgs.cs" t="Include" />
+          <e p="PlaylistNameChangedEventArgs.cs" t="Include" />
+          <e p="PlaylistSongsAddedEventArgs.cs" t="Include" />
+        </e>
+        <e p="Extentsions" t="Include">
+          <e p="AudioUtills.cs" t="Include" />
+          <e p="ClickLoseFocusExtension.cs" t="Include" />
+          <e p="DropFilesBehaviorExtension.cs" t="Include" />
+          <e p="ObservableCollectionExtensions.cs" t="Include" />
+          <e p="PathExtension.cs" t="Include" />
+          <e p="ServiceContainerExtensions.cs" t="Include" />
+          <e p="TextBoxPressEnterBehaviorExtension.cs" t="Include" />
+        </e>
+        <e p="Fonts" t="Include">
+          <e p="Apercu" t="Include">
+            <e p="ApercuPro-Bold.eot" t="Include" />
+            <e p="ApercuPro-Bold.ttf" t="Include" />
+            <e p="ApercuPro-Bold.woff" t="Include" />
+            <e p="ApercuPro-Bold.woff2" t="Include" />
+            <e p="ApercuPro-BoldItalic.eot" t="Include" />
+            <e p="ApercuPro-BoldItalic.ttf" t="Include" />
+            <e p="ApercuPro-BoldItalic.woff" t="Include" />
+            <e p="ApercuPro-BoldItalic.woff2" t="Include" />
+            <e p="ApercuPro-Italic.eot" t="Include" />
+            <e p="ApercuPro-Italic.ttf" t="Include" />
+            <e p="ApercuPro-Italic.woff" t="Include" />
+            <e p="ApercuPro-Italic.woff2" t="Include" />
+            <e p="ApercuPro-Medium.eot" t="Include" />
+            <e p="ApercuPro-Medium.ttf" t="Include" />
+            <e p="ApercuPro-Medium.woff" t="Include" />
+            <e p="ApercuPro-Medium.woff2" t="Include" />
+            <e p="ApercuPro-MediumItalic.eot" t="Include" />
+            <e p="ApercuPro-MediumItalic.ttf" t="Include" />
+            <e p="ApercuPro-MediumItalic.woff" t="Include" />
+            <e p="ApercuPro-MediumItalic.woff2" t="Include" />
+            <e p="ApercuPro-Mono.eot" t="Include" />
+            <e p="ApercuPro-Mono.ttf" t="Include" />
+            <e p="ApercuPro-Mono.woff" t="Include" />
+            <e p="ApercuPro-Mono.woff2" t="Include" />
+            <e p="ApercuPro.eot" t="Include" />
+            <e p="ApercuPro.ttf" t="Include" />
+            <e p="ApercuPro.woff" t="Include" />
+            <e p="ApercuPro.woff2" t="Include" />
+          </e>
+          <e p="gothamssm_bold.otf" t="Include" />
+          <e p="gothamssm_medium.otf" t="Include" />
+          <e p="LonelyArmadillo Bold.otf" t="Include" />
+          <e p="LonelyArmadillo Regular.otf" t="Include" />
+          <e p="Montserrat-Bold.ttf" t="Include" />
+          <e p="Montserrat-ExtraBold.ttf" t="Include" />
+          <e p="Montserrat-SemiBold.ttf" t="Include" />
+          <e p="Popins" t="Include">
+            <e p="Poppins-Black.ttf" t="Include" />
+            <e p="Poppins-BlackItalic.ttf" t="Include" />
+            <e p="Poppins-Bold.ttf" t="Include" />
+            <e p="Poppins-BoldItalic.ttf" t="Include" />
+            <e p="Poppins-ExtraBold.ttf" t="Include" />
+            <e p="Poppins-ExtraBoldItalic.ttf" t="Include" />
+            <e p="Poppins-ExtraLight.ttf" t="Include" />
+            <e p="Poppins-ExtraLightItalic.ttf" t="Include" />
+            <e p="Poppins-Italic.ttf" t="Include" />
+            <e p="Poppins-Light.ttf" t="Include" />
+            <e p="Poppins-LightItalic.ttf" t="Include" />
+            <e p="Poppins-Medium.ttf" t="Include" />
+            <e p="Poppins-MediumItalic.ttf" t="Include" />
+            <e p="Poppins-Regular.ttf" t="Include" />
+            <e p="Poppins-SemiBold.ttf" t="Include" />
+            <e p="Poppins-SemiBoldItalic.ttf" t="Include" />
+            <e p="Poppins-Thin.ttf" t="Include" />
+            <e p="Poppins-ThinItalic.ttf" t="Include" />
+          </e>
+          <e p="Raleway-Black.ttf" t="Include" />
+          <e p="Raleway-Bold.ttf" t="Include" />
+          <e p="Raleway-ExtraBold.ttf" t="Include" />
+          <e p="Raleway-ExtraLight.ttf" t="Include" />
+          <e p="Raleway-Light.ttf" t="Include" />
+          <e p="Raleway-Medium.ttf" t="Include" />
+          <e p="Raleway-SemiBold.ttf" t="Include" />
+          <e p="Roboto-Black.ttf" t="Include" />
+          <e p="Roboto-Bold.ttf" t="Include" />
+          <e p="Rubik-Bold.ttf" t="Include" />
+          <e p="Rubik-Medium.ttf" t="Include" />
+        </e>
+        <e p="icons" t="Include">
+          <e p="audio_w.svg" t="Include" />
+          <e p="back_s.svg" t="Include" />
+          <e p="backward.svg" t="Include" />
+          <e p="blank-dark.svg" t="Include" />
+          <e p="discard.svg" t="Include" />
+          <e p="download.svg" t="Include" />
+          <e p="empty-folder.svg" t="Include" />
+          <e p="error-screen.svg" t="Include" />
+          <e p="forward.svg" t="Include" />
+          <e p="forward_s.svg" t="Include" />
+          <e p="home-icon.svg" t="Include" />
+          <e p="muted.svg" t="Include" />
+          <e p="no-volume.svg" t="Include" />
+          <e p="open.svg" t="Include" />
+          <e p="page-document-empty.svg" t="Include" />
+          <e p="pause-plain.svg" t="Include" />
+          <e p="pause.svg" t="Include" />
+          <e p="play.svg" t="Include" />
+          <e p="search-icon.svg" t="Include" />
+          <e p="voice_white.svg" t="Include" />
+          <e p="voices.svg" t="Include" />
+          <e p="volume-green.svg" t="Include" />
+          <e p="volume.svg" t="Include" />
+          <e p="volume1.svg" t="Include" />
+        </e>
+        <e p="Images" t="Include">
+          <e p="19464881.png" t="Include" />
+          <e p="19464881white.png" t="Include" />
+          <e p="66c19c52cfe86614385363.png" t="Include" />
+          <e p="add_500px.png" t="Include" />
+          <e p="alwave-ice.jpg" t="Include" />
+          <e p="Application Shield_30px.png" t="Include" />
+          <e p="back_480px.png" t="Include" />
+          <e p="Circled Play_512px.png" t="Include" />
+          <e p="Day_Vibe.jpg" t="Include" />
+          <e p="face.jpg" t="Include" />
+          <e p="file_144px.png" t="Include" />
+          <e p="giphy.gif" t="Include" />
+          <e p="Header" t="Include">
+            <e p="crescent_moon_45px.png" t="Include" />
+            <e p="crescent_moon_45px_white.png" t="Include" />
+            <e p="diamond_45px.png" t="Include" />
+            <e p="fairytale_45px.png" t="Include" />
+            <e p="more_45px.png" t="Include" />
+            <e p="settings_45px.png" t="Include" />
+            <e p="sun_45px.png" t="Include" />
+            <e p="sun_45px_grey.png" t="Include" />
+          </e>
+          <e p="heart_50px.png" t="Include" />
+          <e p="home-icon.svg" t="Include" />
+          <e p="home_20px_new.png" t="Include" />
+          <e p="home_20px_white_new.png" t="Include" />
+          <e p="home_30px.png" t="Include" />
+          <e p="Imagine_Dragons_Thunder.jpg" t="Include" />
+          <e p="JuyBack.jpg" t="Include" />
+          <e p="kizaru.jpg" t="Include" />
+          <e p="membership_card_192px.png" t="Include" />
+          <e p="Mor_Vibe.jpg" t="Include" />
+          <e p="music_189px.png" t="Include" />
+          <e p="music_30px.png" t="Include" />
+          <e p="Night_Vibe.jpg" t="Include" />
+          <e p="pause_480px.png" t="Include" />
+          <e p="piano_64px.png" t="Include" />
+          <e p="playlist_30px.png" t="Include" />
+          <e p="Premium_Logo.png" t="Include" />
+          <e p="SadBack.jpg" t="Include" />
+          <e p="search.png" t="Include" />
+          <e p="search_144px.png" t="Include" />
+          <e p="search_30px.png" t="Include" />
+          <e p="seno.jpg" t="Include" />
+          <e p="settings_144px.png" t="Include" />
+          <e p="settings_30px.png" t="Include" />
+          <e p="slider_30px.png" t="Include" />
+          <e p="Summer.jpg" t="Include" />
+          <e p="Toolbar" t="Include">
+            <e p="audio_file_45px_white.png" t="Include" />
+            <e p="guitar_pick_40px.png" t="Include" />
+            <e p="home_45px_grey.png" t="Include" />
+            <e p="home_45px_white.png" t="Include" />
+            <e p="music_45px_grey.png" t="Include" />
+            <e p="music_45px_grey_v2.png" t="Include" />
+            <e p="music_45px_white_v2.png" t="Include" />
+            <e p="search_45px_grey.png" t="Include" />
+            <e p="search_45px_grey_v2.png" t="Include" />
+            <e p="search_45px_white.png" t="Include" />
+            <e p="search_45px_white_v2.png" t="Include" />
+          </e>
+          <e p="Travis Scott - Utopia.jpg" t="Include" />
+          <e p="vip_192px.png" t="Include" />
+          <e p="voice_50px.png" t="Include" />
+          <e p="voice_512px.png" t="Include" />
+          <e p="Waveify_BlackWhite.png" t="Include" />
+          <e p="Waveify_BlackWhite@3x.png" t="Include" />
+          <e p="Waveify_Default_Small.png" t="Include" />
+          <e p="Waveify_Premium.png" t="Include" />
+          <e p="Waveify_Premium_Small.png" t="Include" />
+          <e p="Waveify_Titanium_Small.png" t="Include" />
+          <e p="Ресурс 11@3x.png" t="Include" />
+          <e p="Ресурс 1@3x.png" t="Include" />
+        </e>
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Model" t="Include">
+          <e p="MediaModel.cs" t="Include" />
+          <e p="PlaylistModel.cs" t="Include" />
+          <e p="YoutubeVideoInfoModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net8.0-windows" t="Include">
+              <e p="App.g.cs" t="Include" />
+              <e p="CustomControls" t="Include">
+                <e p="Content" t="Include">
+                  <e p="PlaylistWorkingVibeCC.g.cs" t="Include" />
+                </e>
+                <e p="MusicCard.g.cs" t="Include" />
+                <e p="MusicPanelControl.g.cs" t="Include" />
+                <e p="PlaceHolderCC.g.cs" t="Include" />
+                <e p="ToolbarControl.g.cs" t="Include" />
+                <e p="UserProfileControl.g.cs" t="Include" />
+              </e>
+              <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+              <e p="MainWindow.g.cs" t="Include" />
+              <e p="Pages" t="Include">
+                <e p="LoadingPage.g.cs" t="Include" />
+                <e p="MainPage.g.cs" t="Include" />
+                <e p="PreparingToLaunchApplication.g.cs" t="Include" />
+                <e p="SignInPage.g.cs" t="Include" />
+                <e p="WelcomePage.g.cs" t="Include" />
+              </e>
+              <e p="Toast" t="Include">
+                <e p="ToastWindow.g.cs" t="Include" />
+              </e>
+              <e p="Views" t="Include">
+                <e p="ChartView.g.cs" t="Include" />
+                <e p="EditPlaylistView.g.cs" t="Include" />
+                <e p="HomeView.g.cs" t="Include" />
+                <e p="IdentifyBpmView.g.cs" t="Include" />
+                <e p="MyFileView.g.cs" t="Include" />
+                <e p="PlaylistView.g.cs" t="Include" />
+                <e p="PremiumView.g.cs" t="Include" />
+                <e p="ProfileView.g.cs" t="Include" />
+                <e p="SearchView.g.cs" t="Include" />
+                <e p="SettingsView.g.cs" t="Include" />
+              </e>
+              <e p="Waveify.AssemblyInfo.cs" t="Include" />
+              <e p="Waveify.GlobalUsings.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="LoadingPage.xaml" t="Include" />
+          <e p="LoadingPage.xaml.cs" t="Include" />
+          <e p="MainPage.xaml" t="Include" />
+          <e p="MainPage.xaml.cs" t="Include" />
+          <e p="PreparingToLaunchApplication.xaml" t="Include" />
+          <e p="PreparingToLaunchApplication.xaml.cs" t="Include" />
+          <e p="SignInPage.xaml" t="Include" />
+          <e p="SignInPage.xaml.cs" t="Include" />
+          <e p="Travis Scott - Utopia.jpg" t="Include" />
+          <e p="WelcomePage.xaml" t="Include" />
+          <e p="WelcomePage.xaml.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Store" t="Include">
+          <e p="MediaStore.cs" t="Include" />
+          <e p="PlaylistBrowserNavigationStore.cs" t="Include" />
+          <e p="PlaylistStore.cs" t="Include" />
+        </e>
+        <e p="Style" t="Include">
+          <e p="Button.xaml" t="Include" />
+          <e p="Loading.xaml" t="Include" />
+          <e p="MinMaxButton.xaml" t="Include" />
+          <e p="ProgressBarStyles.xaml" t="Include" />
+        </e>
+        <e p="Themes" t="Include">
+          <e p="Dark.xaml" t="Include" />
+          <e p="Generic.xaml" t="Include" />
+          <e p="Light.xaml" t="Include" />
+          <e p="Premium.xaml" t="Include" />
+        </e>
+        <e p="ThemeService.cs" t="Include" />
+        <e p="Toast" t="Include">
+          <e p="ToastWindow.xaml" t="Include" />
+          <e p="ToastWindow.xaml.cs" t="Include" />
+        </e>
+        <e p="UI" t="Include">
+          <e p="IFilesDropAsync.cs" t="Include" />
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="Button.cs" t="Include" />
+          <e p="DataTemplate.xaml" t="Include" />
+          <e p="DSlider.cs" t="Include" />
+          <e p="EqualizerEffect.cs" t="Include" />
+          <e p="LoadingSpinner.cs" t="Include" />
+          <e p="MusicPlayerService.cs" t="Include" />
+          <e p="NavigationService.cs" t="Include" />
+          <e p="ObservableObject.cs" t="Include" />
+          <e p="ObservableWrapper.cs" t="Include" />
+          <e p="RelayCommand.cs" t="Include" />
+          <e p="YouTubeClientService.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="DownloadsVM.cs" t="Include" />
+          <e p="EditPlaylistVM.cs" t="Include" />
+          <e p="HomeVM.cs" t="Include" />
+          <e p="ItemUserProfileVM.cs" t="Include" />
+          <e p="MainVM.cs" t="Include" />
+          <e p="MyFileVM.cs" t="Include" />
+          <e p="PlayerVM.cs" t="Include" />
+          <e p="PlaylistVM.cs" t="Include" />
+          <e p="PlaylistWorkingVibeVM.cs" t="Include" />
+          <e p="ProfileVM.cs" t="Include" />
+          <e p="SettingVM.cs" t="Include" />
+          <e p="SubItemVM.cs" t="Include" />
+          <e p="ToolbarVM.cs" t="Include" />
+          <e p="ViewModelBase.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="ChartView.xaml" t="Include" />
+          <e p="ChartView.xaml.cs" t="Include" />
+          <e p="EditPlaylistView.xaml" t="Include" />
+          <e p="EditPlaylistView.xaml.cs" t="Include" />
+          <e p="HomeView.xaml" t="Include" />
+          <e p="HomeView.xaml.cs" t="Include" />
+          <e p="IdentifyBpmView.xaml" t="Include" />
+          <e p="IdentifyBpmView.xaml.cs" t="Include" />
+          <e p="MyFileView.xaml" t="Include" />
+          <e p="MyFileView.xaml.cs" t="Include" />
+          <e p="PlaylistView.xaml" t="Include" />
+          <e p="PlaylistView.xaml.cs" t="Include" />
+          <e p="PremiumView.xaml" t="Include" />
+          <e p="PremiumView.xaml.cs" t="Include" />
+          <e p="ProfileView.xaml" t="Include" />
+          <e p="ProfileView.xaml.cs" t="Include" />
+          <e p="SearchView.xaml" t="Include" />
+          <e p="SearchView.xaml.cs" t="Include" />
+          <e p="SettingsView.xaml" t="Include" />
+          <e p="SettingsView.xaml.cs" t="Include" />
+        </e>
+        <e p="Waveify.csproj" t="IncludeRecursive" />
+        <e p="Waveify_Default_Small.png" t="Include" />
+        <e p="WaveifyLogo.ico" t="Include" />
+      </e>
+      <e p="Waveify.sln" t="IncludeFlat" />
+      <e p="Waveify.Update" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net8.0-windows" t="Include">
+              <e p="App.g.cs" t="Include" />
+              <e p="MainWindow.g.cs" t="Include" />
+              <e p="Waveify.Update.AssemblyInfo.cs" t="Include" />
+              <e p="Waveify.Update.GlobalUsings.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Waveify.Update.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WaveifyData" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="DataContext.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="BaseEntity.cs" t="Include" />
+          <e p="MediaEntitiy.cs" t="Include" />
+          <e p="PlaylistEntity.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20220624175449_init.cs" t="Include" />
+          <e p="20240814231832_AddCreationDateColumn.cs" t="Include" />
+          <e p="20240814231832_AddCreationDateColumn.Designer.cs" t="Include" />
+          <e p="DataContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net8.0" t="Include">
+              <e p="WaveifyData.AssemblyInfo.cs" t="Include" />
+              <e p="WaveifyData.GlobalUsings.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="WaveifyData.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -58,10 +58,19 @@ namespace Waveify.CustomControls
         {
           
         }
-
+        
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
         }
+        //private void Ellipse_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    StatusPopup.IsOpen = true;
+        //}
+
+        //private void Ellipse_MouseLeave(object sender, MouseEventArgs e)
+        //{
+        //    StatusPopup.IsOpen = false;
+        //}
     }
 }

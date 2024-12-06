@@ -12,3 +12,4 @@ D:\ProjectVS\Waveify\WaveifyData\obj\Debug\net8.0\refint\WaveifyData.dll
 D:\ProjectVS\Waveify\WaveifyData\obj\Debug\net8.0\WaveifyData.pdb
 D:\ProjectVS\Waveify\WaveifyData\obj\Debug\net8.0\WaveifyData.genruntimeconfig.cache
 D:\ProjectVS\Waveify\WaveifyData\obj\Debug\net8.0\ref\WaveifyData.dll
+D:\ProjectVS\Waveify\WaveifyData\obj\Debug\net8.0\WaveifyData.sourcelink.json

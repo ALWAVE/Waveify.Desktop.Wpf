@@ -307,4 +307,16 @@
         </Style.Triggers>
     </Style>
     <!-- Другие общие стили -->
+    <!--PopUp-->
+    <Style x:Key="TooltipPopupStyle" TargetType="Popup">
+        <Setter Property="AllowsTransparency" Value="True"/>
+        <Setter Property="Placement" Value="MousePoint"/>
+        <Setter Property="StaysOpen" Value="False"/>
+        <!-- Закрывается при отводе курсора -->
+        <Setter Property="PopupAnimation" Value="Slide"/>
+        <Setter Property="HorizontalOffset" Value="5"/>
+        <!-- Небольшое смещение -->
+        <Setter Property="VerticalOffset" Value="5"/>
+        <!-- Небольшое смещение -->
+    </Style>
 </ResourceDictionary>

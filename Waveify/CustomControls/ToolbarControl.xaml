@@ -472,6 +472,7 @@ TargetType="{x:Type Button}">
 
 
                             <Grid.ColumnDefinitions>
+                               
                                 <ColumnDefinition Width="Auto" />
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="Auto" />
@@ -481,18 +482,20 @@ TargetType="{x:Type Button}">
                             </Grid.RowDefinitions>
 
 
-
+                            <Button Margin="0 0 5 0" Grid.Column="0" Grid.Row="0" Style="{DynamicResource TransparentButton}" Command="{Binding ElementName=PlaylistItems, Path=YourCommand}" CommandParameter="{Binding Id}" Background="Transparent" BorderThickness="0">
+                                <Ellipse Width="12" Height="12" Fill="Gray" />
+                            </Button>
 
                             <Button Grid.Row="0"
                              Grid.Column="0"
                              Command="{Binding ElementName=PlaylistItems, Path=DataContext.DeletePlaylist}"
                              CommandParameter="{Binding Id}"
                              Width="30px">
-
+                                
                                 <svgc:SvgViewbox Width="15px"
                                               Height="15px"
                                               Source="/icons/discard.svg"/>
-
+                                
                                 <Button.Style>
                                     <Style BasedOn="{StaticResource TransparentButton}" TargetType="{x:Type Button}">
                                         <Setter Property="Visibility" Value="Collapsed"/>
@@ -506,7 +509,7 @@ TargetType="{x:Type Button}">
                             </Button>
 
                             <Button Grid.Row="0"
-                           Margin="30 0 0 0"    
+                             Margin="30 0 0 0"    
                              Grid.Column="1" 
                              Padding="10"
                              Command="{Binding ElementName=PlaylistItems, Path=DataContext.NavigatePlaylist}"
@@ -549,39 +552,45 @@ TargetType="{x:Type Button}">
                                     </Style>
                                 </Button.Style>
                             </Button>
-
-                            <Button Grid.Row="0"
+                            <!--Playlist Create-->
+                            <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2"  VerticalAlignment="Center" Margin="0 0 10 0">
+                               
+                                <Button Grid.Row="0"
                              Grid.Column="2"
                              HorizontalAlignment="Right"
                              VerticalAlignment="Center"
                              Margin="0 0 10 0"
                              Command="{Binding ElementName=PlaylistItems, Path=DataContext.TogglePlayer}">
-                                <svgc:SvgViewbox Width="15px"
+                                    <StackPanel Orientation="Horizontal">
+                                       
+                                        <svgc:SvgViewbox Width="15px"
                                           Height="15px">
-                                    <svgc:SvgViewbox.Style>
-                                        <Style TargetType="{x:Type svgc:SvgViewbox}">
-                                            <Setter Property="Source" Value="/icons/voice_white.svg"/>
+                                            <svgc:SvgViewbox.Style>
+                                                <Style TargetType="{x:Type svgc:SvgViewbox}">
+                                                    <Setter Property="Source" Value="/icons/voice_white.svg"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=IsMouseOver}" Value="True">
+                                                            <Setter Property="Source" Value="/icons/pause-plain.svg"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </svgc:SvgViewbox.Style>
+                                        </svgc:SvgViewbox>
+                                    </StackPanel>
+                                    <Button.Style>
+                                        <Style BasedOn="{StaticResource TransparentButton}"
+                                    TargetType="{x:Type Button}">
+                                            <Setter Property="Visibility" Value="Collapsed" />
+                                            <Setter Property="Padding" Value="0" />
                                             <Style.Triggers>
-                                                <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=IsMouseOver}" Value="True">
-                                                    <Setter Property="Source" Value="/icons/pause-plain.svg"/>
+                                                <DataTrigger Binding="{Binding IsPlaying}" Value="True">
+                                                    <Setter Property="Visibility" Value="Visible" />
                                                 </DataTrigger>
                                             </Style.Triggers>
                                         </Style>
-                                    </svgc:SvgViewbox.Style>
-                                </svgc:SvgViewbox>
-                                <Button.Style>
-                                    <Style BasedOn="{StaticResource TransparentButton}"
-                                    TargetType="{x:Type Button}">
-                                        <Setter Property="Visibility" Value="Collapsed" />
-                                        <Setter Property="Padding" Value="0" />
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding IsPlaying}" Value="True">
-                                                <Setter Property="Visibility" Value="Visible" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </Button.Style>
-                            </Button>
+                                    </Button.Style>
+                                </Button>
+                            </StackPanel>
                         </Grid>
 
                     </DataTemplate>
