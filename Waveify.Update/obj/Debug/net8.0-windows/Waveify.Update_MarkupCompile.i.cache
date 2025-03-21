@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\ProjectVS\Waveify\Waveify.Update\obj\Debug\net8.0-windows\
+D:\ProjectVS\Waveify.Desktop.Wpf\Waveify.Update\obj\Debug\net8.0-windows\
 Waveify.Update
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\ProjectVS\Waveify\Waveify.Update\App.xaml
+D:\ProjectVS\Waveify.Desktop.Wpf\Waveify.Update\App.xaml
 11407045341
 
 61306205454
-270-1611868522
+270347927255
 MainWindow.xaml;
 
 True

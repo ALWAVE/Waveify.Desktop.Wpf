@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r74uzegmJZY=",
+  "dgSpecHash": "3L6NK7FVsAk=",
   "success": true,
-  "projectFilePath": "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj",
+  "projectFilePath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aptem\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\aptem\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

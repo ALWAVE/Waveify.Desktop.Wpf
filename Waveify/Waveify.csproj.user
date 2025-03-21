@@ -37,7 +37,7 @@
     <Compile Update="Views\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\IdentifyBpmView.xaml.cs">
+    <Compile Update="Views\KeyFinderView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\MyFileView.xaml.cs">
@@ -108,7 +108,7 @@
     <Page Update="Pages\LoadingPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\IdentifyBpmView.xaml">
+    <Page Update="Views\KeyFinderView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MyFileView.xaml">

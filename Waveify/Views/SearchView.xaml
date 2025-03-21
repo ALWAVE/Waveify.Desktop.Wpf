@@ -7,7 +7,7 @@
              xmlns:ext="clr-namespace:Waveify.Extentsions"
              xmlns:components="clr-namespace:Waveify.Utilities"
              xmlns:control="clr-namespace:Waveify.CustomControls"
-             xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+             xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" xmlns:viewmodel="clr-namespace:Waveify.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:DownloadsVM}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
                      ext:ClickLoseFocusExtension.IsEnabled="True">
@@ -91,8 +91,8 @@
                 <Border.Background>
                     <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
                         <LinearGradientBrush.GradientStops>
-                            <GradientStop Offset="0.8" Color="#bd3428" />
-                            <GradientStop Offset="0.2" Color="#a32c2c" />
+                            <GradientStop Offset="0.8" Color="pink" />
+                            <GradientStop Offset="0.2" Color="Purple" />
                         </LinearGradientBrush.GradientStops>
                     </LinearGradientBrush>
                 </Border.Background>
@@ -124,7 +124,7 @@
                 <TextBlock Grid.Row="1"
                 Grid.Column="0"
                 Grid.ColumnSpan="3"
-                Text="Search on youtube"
+                Text="Search on Waveify"
               
                 FontSize="50px"
                 Margin="0 0 0 5"
@@ -141,7 +141,6 @@
               Height="30px"
               Background="#fff"
               Foreground="#963027"
-           
               FontWeight="SemiBold"
               
               ext:TextBoxPressEnterBehaviorExtension.EnterCommand="{Binding SearchMedia}"
@@ -154,7 +153,7 @@
                 Margin="16 15 0 0"
                 Height="30px"
                 IsHitTestVisible="False"
-                Foreground="#963027"
+                Foreground="#888"
                 Opacity="0.5"
                 Text="Search url, artist or song name..."
                

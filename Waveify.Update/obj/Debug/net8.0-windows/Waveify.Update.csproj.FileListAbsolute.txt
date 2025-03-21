@@ -126,3 +126,7 @@ D:\ProjectVS\Waveify\Waveify.Update\obj\Debug\net8.0-windows\Waveify.Update.pdb
 D:\ProjectVS\Waveify\Waveify.Update\obj\Debug\net8.0-windows\Waveify.Update.genruntimeconfig.cache
 D:\ProjectVS\Waveify\Waveify.Update\obj\Debug\net8.0-windows\ref\Waveify.Update.dll
 D:\ProjectVS\Waveify\Waveify.Update\obj\Debug\net8.0-windows\App.baml
+D:\ProjectVS\Waveify.Desktop.Wpf\Waveify.Update\obj\Debug\net8.0-windows\Waveify.Update.csproj.AssemblyReference.cache
+D:\ProjectVS\Waveify.Desktop.Wpf\Waveify.Update\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\ProjectVS\Waveify.Desktop.Wpf\Waveify.Update\obj\Debug\net8.0-windows\Waveify.Update_MarkupCompile.cache
+D:\ProjectVS\Waveify.Desktop.Wpf\Waveify.Update\obj\Debug\net8.0-windows\Waveify.Update_MarkupCompile.lref

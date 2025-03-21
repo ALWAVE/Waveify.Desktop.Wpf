@@ -57,9 +57,15 @@ namespace Waveify.ViewModel
         public ICommand NavigateProfile { get; }
         public ICommand CreatePlaylist { get; }
         public ICommand TogglePlayer { get; }
+        public ICommand NavigateKeyFinder { get; }
         public ObservableCollection<PlaylistModel> Playlists { get; set; }
 
-        public ToolbarVM(IMusicPlayerService musicPlayerService, INavigationService navigationService, PlaylistBrowserNavigationStore playlistBrowserStore, PlaylistStore playlistStore, MediaStore mediaStore)
+        public ToolbarVM(
+            IMusicPlayerService musicPlayerService, 
+            INavigationService navigationService, 
+            PlaylistBrowserNavigationStore playlistBrowserStore, 
+            PlaylistStore playlistStore, 
+            MediaStore mediaStore)
         {
 
 
@@ -76,6 +82,8 @@ namespace Waveify.ViewModel
             NavigateMyFile = new SwitchPageToMyFileCommand(navigationService, playlistBrowserStore);
             NavigateSettings = new SwitchPageToSettingsCommand(navigationService, playlistBrowserStore);    
             NavigateProfile = new SwitchPageToProfileCommand(navigationService, playlistBrowserStore);
+            NavigateKeyFinder = new SwitchPageToKeyFinderCommand(navigationService, playlistBrowserStore);
+
             _playlistStore = playlistStore;
             _mediaStore = mediaStore;
 
@@ -104,7 +112,7 @@ namespace Waveify.ViewModel
             NavigateHome = new SwitchPageToHomeCommand(navigationService, playlistBrowserStore);
             NavigatePlaylist = new SwitchPageToPlaylistCommand(navigationService, playlistBrowserStore);
             NavigateDownloads = new SwitchPageToDownloadsCommand(navigationService, playlistBrowserStore);
- 
+            NavigateKeyFinder = new SwitchPageToKeyFinderCommand(navigationService, playlistBrowserStore);
 
             NavigateMyFile = new SwitchPageToMyFileCommand(navigationService, playlistBrowserStore);
             NavigateSettings = new SwitchPageToSettingsCommand(navigationService, playlistBrowserStore);

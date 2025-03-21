@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj": {}
+    "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\Waveify.Update.csproj": {}
   },
   "projects": {
-    "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj": {
+    "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\Waveify.Update.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj",
+        "projectUniqueName": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\Waveify.Update.csproj",
         "projectName": "Waveify.Update",
-        "projectPath": "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj",
+        "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\Waveify.Update.csproj",
         "packagesPath": "C:\\Users\\aptem\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectVS\\Waveify\\Waveify.Update\\obj\\",
+        "outputPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 22\\VSSDK\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj": {
-                "projectPath": "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj"
+              "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj": {
+                "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj": {
+    "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj",
+        "projectUniqueName": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj",
         "projectName": "WaveifyData",
-        "projectPath": "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj",
+        "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj",
         "packagesPath": "C:\\Users\\aptem\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectVS\\Waveify\\WaveifyData\\obj\\",
+        "outputPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 22\\VSSDK\\NuGetPackages"
@@ -171,14 +171,14 @@
         }
       }
     },
-    "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj": {
+    "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj",
+        "projectUniqueName": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj",
         "projectName": "Waveify",
-        "projectPath": "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj",
+        "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj",
         "packagesPath": "C:\\Users\\aptem\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectVS\\Waveify\\Waveify\\obj\\",
+        "outputPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 22\\VSSDK\\NuGetPackages"
@@ -200,8 +200,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj": {
-                "projectPath": "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj"
+              "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj": {
+                "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj"
               }
             }
           }

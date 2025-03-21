@@ -87,9 +87,10 @@
         </Grid.Resources>
         <Border  Style="{DynamicResource SideBar}" CornerRadius="20 20 0 0" Grid.Row="0">
             <StackPanel Margin="0 10 0 0">
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10 40 0 0">
-                    <Image Style="{DynamicResource MainIcon}" Margin="15 -4 0 0" Height="42" Width="33"/>
-                    <TextBlock FontFamily="Montserrat" Margin="3 20 0 0 "  Text="Waveify"  Style="{DynamicResource menuTittle}" Height="39" Width="163" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10 40 0 0">
+                    <Image Style="{DynamicResource MainIcon}" Height="42" Width="33"/>
+                    <TextBlock FontFamily="Montserrat"  Text="Waveify"  Margin="0 25 0 0" Style="{DynamicResource menuTittle}"  />
+                    <TextBlock FontFamily="Montserrat" Text="Studio"  Foreground="Pink" Style="{DynamicResource menuTittle}" />
                 </StackPanel>
                 <StackPanel Grid.Row="1" Margin="0 15 0 0">
 
@@ -257,17 +258,16 @@
                             <TextBlock FontSize="14" VerticalAlignment="Center" Text="My File" Margin="15,0,0,0" FontFamily="Poppins" />
                         </StackPanel>
                     </Button>
-                    <!--<TextBlock VerticalAlignment="Center"  Text="LIBRARY" Margin="40,10,0,0" Style="{DynamicResource menuTittle}" HorizontalAlignment="Left" FontSize="14px" FontFamily="Rubik Medium"   />-->
-                    <!--<Button FontSize="13px" Margin="0 10 0 0" Height="35" Cursor="Hand" Command="{Binding NavigateSettings}" FontFamily="Rubik Medium">
+                    <Button FontSize="13px" Margin="0 5 0 0" Height="35" Cursor="Hand" Command="{Binding NavigateKeyFinder}" FontFamily="Apercu Pro" >
 
                         <Button.Style>
 
                             <Style BasedOn="{StaticResource TransparentButton}"
-                TargetType="{x:Type Button}">
-                                <Setter Property="Foreground" Value="#888" />
+                                TargetType="{x:Type Button}">
+                                <Setter Property="Foreground" Value="#b4b4b4" />
                                 <Style.Triggers>
 
-                                    <DataTrigger Binding="{Binding CurrentPage}" Value="{x:Static enums:NavigationEN.Settings}">
+                                    <DataTrigger Binding="{Binding CurrentPage}" Value="{x:Static enums:NavigationEN.KeyBpmFinder}">
                                         <DataTrigger.EnterActions>
                                             <BeginStoryboard>
                                                 <Storyboard>
@@ -281,7 +281,7 @@
                                             <BeginStoryboard>
                                                 <Storyboard>
                                                     <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Foreground).(SolidColorBrush.Color)">
-                                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#888" />
+                                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#b4b4b4" />
                                                     </ColorAnimationUsingKeyFrames>
                                                 </Storyboard>
                                             </BeginStoryboard>
@@ -295,53 +295,22 @@
 
                         </Button.Style>
                         <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left" Width="220">
-                            <Image Source="\Images\heart_50px.png" HorizontalAlignment="Center" Margin="20,0,0,0" Width="20px" Height="20px" VerticalAlignment="Center"/>
-                            <TextBlock VerticalAlignment="Center" Text="Favorite Songs" Margin="15,0,0,0" />
+                            <Image  HorizontalAlignment="Center" Margin="20,0,0,0" Width="20px" Height="20px" VerticalAlignment="Center">
+                                <Image.Style>
+                                    <Style TargetType="Image">
+                                        <Setter Property="Source" Value="\Images\Toolbar\music_45px_grey_v2.png" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding CurrentPage}" Value="{x:Static enums:NavigationEN.KeyBpmFinder}">
+                                                <Setter Property="Source" Value="\Images\Toolbar\music_45px_white_v2.png" />
+                                                <!-- Укажите новый путь к изображению -->
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Image.Style>
+                            </Image>
+                            <TextBlock FontSize="14" VerticalAlignment="Center" Text="Key, BPM Finder" Margin="15,0,0,0" FontFamily="Poppins" />
                         </StackPanel>
                     </Button>
-                    <Button FontSize="13px" Margin="0 5 0 0" Height="35" Cursor="Hand" Command="{Binding NavigateSettings}"  FontFamily="GothamSSm">
-
-                        <Button.Style>
-
-                            <Style BasedOn="{StaticResource TransparentButton}"
-TargetType="{x:Type Button}">
-                                <Setter Property="Foreground" Value="#888" />
-                                <Style.Triggers>
-
-                                    <DataTrigger Binding="{Binding CurrentPage}" Value="{x:Static enums:NavigationEN.Settings}">
-                                        <DataTrigger.EnterActions>
-                                            <BeginStoryboard>
-                                                <Storyboard>
-                                                    <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Foreground).(SolidColorBrush.Color)">
-                                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#fff" />
-                                                    </ColorAnimationUsingKeyFrames>
-                                                </Storyboard>
-                                            </BeginStoryboard>
-                                        </DataTrigger.EnterActions>
-                                        <DataTrigger.ExitActions>
-                                            <BeginStoryboard>
-                                                <Storyboard>
-                                                    <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Foreground).(SolidColorBrush.Color)">
-                                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#888" />
-                                                    </ColorAnimationUsingKeyFrames>
-                                                </Storyboard>
-                                            </BeginStoryboard>
-                                        </DataTrigger.ExitActions>
-                                        <Setter Property="Opacity" Value="1" />
-                                    </DataTrigger>
-
-
-                                </Style.Triggers>
-                            </Style>
-
-                        </Button.Style>
-                        <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left" Width="220">
-                            <Image Source="\Images\piano_64px.png" HorizontalAlignment="Center" Margin="20,0,0,0" Width="20px" Height="20px" VerticalAlignment="Center"/>
-                            <TextBlock VerticalAlignment="Center" Text="Beats" Margin="15,0,0,0" />
-                        </StackPanel>
-                    </Button>-->
-
-
                     <TextBlock VerticalAlignment="Center"  Text="YOUR PLAYLIST" Margin="40,10,0,0" Style="{DynamicResource menuTittle}" HorizontalAlignment="Left" FontSize="14px" FontFamily="Poppins SemiBold"   />
                     <!--<Button Margin="0 10 0 0" FontSize="12px" Height="35" Cursor="Hand"  FontFamily="GothamSSm">
 
@@ -632,7 +601,7 @@ TargetType="{x:Type Button}">
                 <Button.Style>
 
                     <Style BasedOn="{StaticResource TransparentButton}"
-TargetType="{x:Type Button}">
+                        TargetType="{x:Type Button}">
                         <Setter Property="Foreground" Value="#b4b4b4" />
                         <Style.Triggers>
 
@@ -704,10 +673,7 @@ TargetType="{x:Type Button}">
                     </Style>
 
                 </Button.Style>
-                <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left" Width="220">
-                    <Image Source="\Images\settings_30px.png" HorizontalAlignment="Center" Margin="20,0,0,0" Width="20px" Height="20px" VerticalAlignment="Center"/>
-                    <TextBlock VerticalAlignment="Center" Text="Profile" Margin="15,0,0,0" />
-                </StackPanel>
+               
             </Button>
         </StackPanel>
 

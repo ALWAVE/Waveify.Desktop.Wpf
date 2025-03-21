@@ -19,6 +19,7 @@ namespace Waveify.Utilities
         public void NavigateMyFile();
         public void NavigateSettings();
         public void NavigateProfile();
+        public void NavigateKeyFinder();
     }
 
     public class NavigationService : INavigationService
@@ -30,12 +31,19 @@ namespace Waveify.Utilities
         private readonly Func<MyFileVM>? _myFileViewModelFunc;
         private readonly Func<SettingVM> _settingViewModelFunc;
         private readonly Func<ProfileVM> _profileViewModelFunc;
+        private readonly Func<KeyFinderVM> _keyFinderViewModelFunc;
 
         public event EventHandler<PageChangedEventArgs>? PageChangedEvent;
         public NavigationEN CurrentPage { get; private set; } = NavigationEN.Home;
 
-        public NavigationService(Func<MainVM> mainViewModelFunc, Func<HomeVM> homeViewModelFunc,
-                                 Func<PlaylistVM> playlistViewModelFunc, Func<DownloadsVM> downloadViewModelFunc, Func<MyFileVM> myFileViewModelFunc, Func<SettingVM> settingViewModelFunc, Func<ProfileVM> profileViewModelFunc)
+        public NavigationService(Func<MainVM> mainViewModelFunc,
+                           Func<HomeVM> homeViewModelFunc,
+                           Func<PlaylistVM> playlistViewModelFunc,
+                           Func<DownloadsVM> downloadViewModelFunc,
+                           Func<MyFileVM> myFileViewModelFunc,
+                           Func<SettingVM> settingViewModelFunc,
+                           Func<ProfileVM> profileViewModelFunc,
+                           Func<KeyFinderVM> keyFinderViewModelFunc)
         {
             _mainViewModelFunc = mainViewModelFunc;
             _homeViewModelFunc = homeViewModelFunc;
@@ -44,7 +52,9 @@ namespace Waveify.Utilities
             _myFileViewModelFunc = myFileViewModelFunc;
             _settingViewModelFunc = settingViewModelFunc;
             _profileViewModelFunc = profileViewModelFunc;
+            _keyFinderViewModelFunc = keyFinderViewModelFunc;
         }
+
 
         public void NavigateHome()
         {
@@ -117,6 +127,18 @@ namespace Waveify.Utilities
             {
                 mainVm.CurrentView = profileVm;
                 CurrentPage = NavigationEN.Profile;
+                PageChangedEvent?.Invoke(this, new PageChangedEventArgs(CurrentPage));
+            }
+        }
+        public void NavigateKeyFinder()
+        {
+            var mainVm = _mainViewModelFunc?.Invoke();
+            var keyFinderVM = _keyFinderViewModelFunc?.Invoke();
+
+            if (mainVm != null && mainVm.CurrentView is not KeyFinderVM)
+            {
+                mainVm.CurrentView = keyFinderVM;
+                CurrentPage = NavigationEN.KeyBpmFinder;
                 PageChangedEvent?.Invoke(this, new PageChangedEventArgs(CurrentPage));
             }
         }

@@ -26,6 +26,7 @@ namespace Waveify.Extentsions
             collection.AddTransient<MyFileVM>();
             collection.AddTransient<SettingVM>();
             collection.AddTransient<ProfileVM>();
+            collection.AddTransient<KeyFinderVM>();
             return collection;
         }
 
@@ -45,10 +46,10 @@ namespace Waveify.Extentsions
                     () => s.GetRequiredService<HomeVM>(),
                     () => s.GetRequiredService<PlaylistVM>(),
                     () => s.GetRequiredService<DownloadsVM>(),
-                    () => s.GetRequiredService<MyFileVM>(), 
+                    () => s.GetRequiredService<MyFileVM>(),
                     () => s.GetRequiredService<SettingVM>(),
-                    () => s.GetRequiredService<ProfileVM>()
-
+                    () => s.GetRequiredService<ProfileVM>(),
+                    () => s.GetRequiredService<KeyFinderVM>()
             ));
 
             return collection;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj": {}
+    "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj": {}
   },
   "projects": {
-    "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj": {
+    "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj",
+        "projectUniqueName": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj",
         "projectName": "WaveifyData",
-        "projectPath": "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj",
+        "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj",
         "packagesPath": "C:\\Users\\aptem\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectVS\\Waveify\\WaveifyData\\obj\\",
+        "outputPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 22\\VSSDK\\NuGetPackages"

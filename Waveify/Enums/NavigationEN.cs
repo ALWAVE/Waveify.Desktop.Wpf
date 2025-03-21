@@ -15,5 +15,6 @@ namespace Waveify.Enums
         MyFile,
         Settings,
         Profile,
+        KeyBpmFinder
     }
 }

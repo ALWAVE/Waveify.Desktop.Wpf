@@ -9754,11 +9754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj",
+      "projectUniqueName": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj",
       "projectName": "Waveify",
-      "projectPath": "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj",
+      "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj",
       "packagesPath": "C:\\Users\\aptem\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectVS\\Waveify\\Waveify\\obj\\",
+      "outputPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio 22\\VSSDK\\NuGetPackages"
@@ -9780,8 +9780,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj": {
-              "projectPath": "D:\\ProjectVS\\Waveify\\WaveifyData\\WaveifyData.csproj"
+            "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj": {
+              "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\WaveifyData\\WaveifyData.csproj"
             }
           }
         }

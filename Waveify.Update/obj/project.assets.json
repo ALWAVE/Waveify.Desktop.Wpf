@@ -8568,11 +8568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj",
+      "projectUniqueName": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\Waveify.Update.csproj",
       "projectName": "Waveify.Update",
-      "projectPath": "D:\\ProjectVS\\Waveify\\Waveify.Update\\Waveify.Update.csproj",
+      "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\Waveify.Update.csproj",
       "packagesPath": "C:\\Users\\aptem\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectVS\\Waveify\\Waveify.Update\\obj\\",
+      "outputPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify.Update\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio 22\\VSSDK\\NuGetPackages"
@@ -8594,8 +8594,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj": {
-              "projectPath": "D:\\ProjectVS\\Waveify\\Waveify\\Waveify.csproj"
+            "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj": {
+              "projectPath": "D:\\ProjectVS\\Waveify.Desktop.Wpf\\Waveify\\Waveify.csproj"
             }
           }
         }
